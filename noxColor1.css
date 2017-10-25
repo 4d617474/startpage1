@@ -1,0 +1,23 @@
+body, .rideaux1, .rideaux2, #settings, #Sthemes
+{
+	background-color:#151520;
+}
+#topBox
+{
+	background-color:#66b3ff;
+;
+}
+#drawer
+{
+	background-color:#3399ff;
+}
+.drawers
+{
+	background-color:#66b3ff;
+	box-shadow:0px 0px 0px;
+}
+.drawers:hover
+{
+	background-color:#99ccff;
+	border-radius:1px;
+}
