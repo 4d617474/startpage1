@@ -1,699 +1,946 @@
 <html>
-	<head>
-		<meta charset="utf-8">
-		<link rel="stylesheet" href="styleNox.css">
-		<link id="testcss" rel="stylesheet" href="noxTheme3V2.css">
-		<link id="cssColor" rel="stylesheet" href="noxColor1.css">
-		<title id="title"> </title>
-		<link rel="shortcut icon" href="icon.png">
-	</head>
-		
-	<body>
-		<div id="blackCurtains" onmousedown="closeSearchBoxIn()"></div>
-		<div id="Main">
-			<div class="rideaux1"></div>
-			<div class="rideaux2"></div>
-			<div id="topBox">
-				<div id="searchBox" onmousedown="openSearchBoxIn()">
-					<form method="get" action="http://www.google.com/search">
-						<div id="searchPlaceholder">Search something here...</div>
-										<input id="search" name="q" placeholder="Search something here..." maxlength="255" value="" type="text" autocomplete="off">
-								</form>
-						</div>
-				</div>
-				
-				<div id="drawer">
-						<div id="drawer1" class="drawers" onmousedown="openDrawer(1)"><div id="draweric1" class="draweric"></div></div>
-						<div id="drawer2" class="drawers" onmousedown="openDrawer(2)"><div id="draweric2" class="draweric"></div></div>
-						<div id="drawer3" class="drawers" onmousedown="openDrawer(3)"><div id="draweric3" class="draweric"></div></div>
-						<div id="drawer4" class="drawers" onmousedown="openDrawer(4)"><div id="draweric4" class="draweric"></div></div>
 
-				</div>
-				
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="styleNox.css">
+	<link id="testcss" rel="stylesheet" href="noxTheme3V2.css">
+	<link id="cssColor" rel="stylesheet" href="noxColor1.css">
+	<title id="title"> </title>
+	<link rel="shortcut icon" href="icon.png">
+</head>
 
-				<div class="Links" id="Links1">
-				
-						<div class="col1">
-						
-								<a class="link=" href="">
-										<div class="Linkbox">
-											<div class="LinkboxInt">
-												<svg class="pol1"><polygon points="0,0 320,0 320,20 20,20"></svg>
-												<svg class="pol2"><polygon  points="0,0  80,80 0,80"></svg>
-												<svg class="pol3"><polygon  points="0,0  20,20 20,0"></svg>
-												<div class="LinkboxInt2d">
-													<div class="MLName">One</div>
-												</div>
-											</div>
-										</div>
-								</a>
-								
-								<a class="link=" href="">
-										<div class="Linkbox">
-											<div class="LinkboxInt">
-												<svg class="pol1"><polygon points="0,0 320,0 320,20 20,20"></svg>
-												<svg class="pol2"><polygon  points="0,0  80,80 0,80"></svg>
-												<svg class="pol3"><polygon  points="0,0  20,20 20,0"></svg>
-												<div class="LinkboxInt2d">
-													<div class="MLName">Two</div>
-												</div>
-											</div>
-										</div>
-								</a>
-								
-								<a class="link=" href="">
-										<div class="Linkbox">
-											<div class="LinkboxInt">
-												<svg class="pol1"><polygon points="0,0 320,0 320,20 20,20"></svg>
-												<svg class="pol2"><polygon  points="0,0  80,80 0,80"></svg>
-												<svg class="pol3"><polygon  points="0,0  20,20 20,0"></svg>
-												<div class="LinkboxInt2d">
-													<div class="MLName">Three</div>
-												</div>
-											</div>
-										</div>
-								</a>
-								
-								<a class="link=" href="">
-										<div class="Linkbox">
-											<div class="LinkboxInt">
-												<svg class="pol1"><polygon points="0,0 320,0 320,20 20,20"></svg>
-												<svg class="pol2"><polygon  points="0,0  80,80 0,80"></svg>
-												<svg class="pol3"><polygon  points="0,0  20,20 20,0"></svg>
-												<div class="LinkboxInt2d">
-													<div class="MLName">Four</div>
-												</div>
-											</div>
-										</div>
-								</a>
-								
-								<a class="link=" href="">
-										<div class="Linkbox">
-											<div class="LinkboxInt">
-												<svg class="pol1"><polygon points="0,0 320,0 320,20 20,20"></svg>
-												<svg class="pol2"><polygon  points="0,0  80,80 0,80"></svg>
-												<svg class="pol3"><polygon  points="0,0  20,20 20,0"></svg>
-												<div class="LinkboxInt2d">
-													<div class="MLName">Five</div>
-												</div>
-											</div>
-										</div>
-								</a>
-								
-						</div>	
-						
-						<div class="col2">
-						
-								<a class="link=" href="">
-										<div class="Linkbox">
-											<div class="LinkboxInt">
-												<svg class="pol1"><polygon points="0,0 320,0 320,20 20,20"></svg>
-												<svg class="pol2"><polygon  points="0,0  80,80 0,80"></svg>
-												<svg class="pol3"><polygon  points="0,0  20,20 20,0"></svg>
-												<div class="LinkboxInt2d">
-													<div class="MLName">Six</div>
-												</div>
-											</div>
-										</div>
-								</a>
-								
-								<a class="link=" href="">
-										<div class="Linkbox">
-											<div class="LinkboxInt">
-												<svg class="pol1"><polygon points="0,0 320,0 320,20 20,20"></svg>
-												<svg class="pol2"><polygon  points="0,0  80,80 0,80"></svg>
-												<svg class="pol3"><polygon  points="0,0  20,20 20,0"></svg>
-												<div class="LinkboxInt2d">
-													<div class="MLName">Seven</div>
-												</div>
-											</div>
-										</div>
-								</a>
-								
-								<a class="link=" href="">
-										<div class="Linkbox">
-											<div class="LinkboxInt">
-												<svg class="pol1"><polygon points="0,0 320,0 320,20 20,20"></svg>
-												<svg class="pol2"><polygon  points="0,0  80,80 0,80"></svg>
-												<svg class="pol3"><polygon  points="0,0  20,20 20,0"></svg>
-												<div class="LinkboxInt2d">
-													<div class="MLName">Eight</div>
-												</div>
-											</div>
-										</div>
-								</a>
-								
-								<a class="link=" href="">
-										<div class="Linkbox">
-											<div class="LinkboxInt">
-												<svg class="pol1"><polygon points="0,0 320,0 320,20 20,20"></svg>
-												<svg class="pol2"><polygon  points="0,0  80,80 0,80"></svg>
-												<svg class="pol3"><polygon  points="0,0  20,20 20,0"></svg>
-												<div class="LinkboxInt2d">
-													<div class="MLName">Nine</div>
-												</div>
-											</div>
-										</div>
-								</a>
-								
-								<a class="link=" href="">
-										<div class="Linkbox">
-											<div class="LinkboxInt">
-												<svg class="pol1"><polygon points="0,0 320,0 320,20 20,20"></svg>
-												<svg class="pol2"><polygon  points="0,0  80,80 0,80"></svg>
-												<svg class="pol3"><polygon  points="0,0  20,20 20,0"></svg>
-												<div class="LinkboxInt2d">
-													<div class="MLName">Ten</div>
-												</div>
-											</div>
-										</div>
-								</a>
-								
-						</div>
-				</div>
-				
-				<div class="Links" id="Links2">
-				
-						<div class="col1">
-						
-								<a class="link=" href="">
-										<div class="Linkbox">
-											<div class="LinkboxInt">
-												<svg class="pol1"><polygon points="0,0 320,0 320,20 20,20"></svg>
-												<svg class="pol2"><polygon  points="0,0  80,80 0,80"></svg>
-												<svg class="pol3"><polygon  points="0,0  20,20 20,0"></svg>
-												<div class="LinkboxInt2d">
-													<div class="MLName">Eleven</div>
-												</div>
-											</div>
-										</div>
-								</a>
-								
-								<a class="link=" href="">
-										<div class="Linkbox">
-											<div class="LinkboxInt">
-												<svg class="pol1"><polygon points="0,0 320,0 320,20 20,20"></svg>
-												<svg class="pol2"><polygon  points="0,0  80,80 0,80"></svg>
-												<svg class="pol3"><polygon  points="0,0  20,20 20,0"></svg>
-												<div class="LinkboxInt2d">
-													<div class="MLName">Twelve</div>
-												</div>
-											</div>
-										</div>
-								</a>
-								
-								<a class="link=" href="">
-										<div class="Linkbox">
-											<div class="LinkboxInt">
-												<svg class="pol1"><polygon points="0,0 320,0 320,20 20,20"></svg>
-												<svg class="pol2"><polygon  points="0,0  80,80 0,80"></svg>
-												<svg class="pol3"><polygon  points="0,0  20,20 20,0"></svg>
-												<div class="LinkboxInt2d">
-													<div class="MLName">Thirteen</div>
-												</div>
-											</div>
-										</div>
-								</a>
-								
-								<a class="link=" href="">
-										<div class="Linkbox">
-											<div class="LinkboxInt">
-												<svg class="pol1"><polygon points="0,0 320,0 320,20 20,20"></svg>
-												<svg class="pol2"><polygon  points="0,0  80,80 0,80"></svg>
-												<svg class="pol3"><polygon  points="0,0  20,20 20,0"></svg>
-												<div class="LinkboxInt2d">
-													<div class="MLName">Fourteen</div>
-												</div>
-											</div>
-										</div>
-								</a>
-								
-								<a class="link=" href="">
-										<div class="Linkbox">
-											<div class="LinkboxInt">
-												<svg class="pol1"><polygon points="0,0 320,0 320,20 20,20"></svg>
-												<svg class="pol2"><polygon  points="0,0  80,80 0,80"></svg>
-												<svg class="pol3"><polygon  points="0,0  20,20 20,0"></svg>
-												<div class="LinkboxInt2d">
-													<div class="MLName">Fifthteen</div>
-												</div>
-											</div>
-										</div>
-								</a>
-								
-						</div>	
-						
-						<div class="col2">
-						
-								<a class="link=" href="">
-										<div class="Linkbox">
-											<div class="LinkboxInt">
-												<svg class="pol1"><polygon points="0,0 320,0 320,20 20,20"></svg>
-												<svg class="pol2"><polygon  points="0,0  80,80 0,80"></svg>
-												<svg class="pol3"><polygon  points="0,0  20,20 20,0"></svg>
-												<div class="LinkboxInt2d">
-													<div class="MLName">Sixteen</div>
-												</div>
-											</div>
-										</div>
-								</a>
-								
-								<a class="link=" href="">
-										<div class="Linkbox">
-											<div class="LinkboxInt">
-												<svg class="pol1"><polygon points="0,0 320,0 320,20 20,20"></svg>
-												<svg class="pol2"><polygon  points="0,0  80,80 0,80"></svg>
-												<svg class="pol3"><polygon  points="0,0  20,20 20,0"></svg>
-												<div class="LinkboxInt2d">
-													<div class="MLName">Seventeen</div>
-												</div>
-											</div>
-										</div>
-								</a>
-								
-								<a class="link=" href="">
-										<div class="Linkbox">
-											<div class="LinkboxInt">
-												<svg class="pol1"><polygon points="0,0 320,0 320,20 20,20"></svg>
-												<svg class="pol2"><polygon  points="0,0  80,80 0,80"></svg>
-												<svg class="pol3"><polygon  points="0,0  20,20 20,0"></svg>
-												<div class="LinkboxInt2d">
-													<div class="MLName">Eighteen</div>
-												</div>
-											</div>
-										</div>
-								</a>
-								
-								<a class="link=" href="">
-										<div class="Linkbox">
-											<div class="LinkboxInt">
-												<svg class="pol1"><polygon points="0,0 320,0 320,20 20,20"></svg>
-												<svg class="pol2"><polygon  points="0,0  80,80 0,80"></svg>
-												<svg class="pol3"><polygon  points="0,0  20,20 20,0"></svg>
-												<div class="LinkboxInt2d">
-													<div class="MLName">Nineteen</div>
-												</div>
-											</div>
-										</div>
-								</a>
-								
-								<a class="link=" href="">
-										<div class="Linkbox">
-											<div class="LinkboxInt">
-												<svg class="pol1"><polygon points="0,0 320,0 320,20 20,20"></svg>
-												<svg class="pol2"><polygon  points="0,0  80,80 0,80"></svg>
-												<svg class="pol3"><polygon  points="0,0  20,20 20,0"></svg>
-												<div class="LinkboxInt2d">
-													<div class="MLName">Twenty</div>
-												</div>
-											</div>
-										</div>
-								</a>
-								
-						</div>
-						
-				</div>
-				
-				<div class="Links" id="Links3">
-				
-						<div class="col1">
-						
-								<a class="link=" href="">
-										<div class="Linkbox">
-											<div class="LinkboxInt">
-												<svg class="pol1"><polygon points="0,0 320,0 320,20 20,20"></svg>
-												<svg class="pol2"><polygon  points="0,0  80,80 0,80"></svg>
-												<svg class="pol3"><polygon  points="0,0  20,20 20,0"></svg>
-												<div class="LinkboxInt2d">
-													<div class="MLName">Twenty-one</div>
-												</div>
-											</div>
-										</div>
-								</a>
-								
-								<a class="link=" href="">
-										<div class="Linkbox">
-											<div class="LinkboxInt">
-												<svg class="pol1"><polygon points="0,0 320,0 320,20 20,20"></svg>
-												<svg class="pol2"><polygon  points="0,0  80,80 0,80"></svg>
-												<svg class="pol3"><polygon  points="0,0  20,20 20,0"></svg>
-												<div class="LinkboxInt2d">
-													<div class="MLName">Twenty-two</div>
-												</div>
-											</div>
-										</div>
-								</a>
-								
-								<a class="link=" href="">
-										<div class="Linkbox">
-											<div class="LinkboxInt">
-												<svg class="pol1"><polygon points="0,0 320,0 320,20 20,20"></svg>
-												<svg class="pol2"><polygon  points="0,0  80,80 0,80"></svg>
-												<svg class="pol3"><polygon  points="0,0  20,20 20,0"></svg>
-												<div class="LinkboxInt2d">
-													<div class="MLName">Twenty-three</div>
-												</div>
-											</div>
-										</div>
-								</a>
-								
-								<a class="link=" href="">
-										<div class="Linkbox">
-											<div class="LinkboxInt">
-												<svg class="pol1"><polygon points="0,0 320,0 320,20 20,20"></svg>
-												<svg class="pol2"><polygon  points="0,0  80,80 0,80"></svg>
-												<svg class="pol3"><polygon  points="0,0  20,20 20,0"></svg>
-												<div class="LinkboxInt2d">
-													<div class="MLName">Twenty-four</div>
-												</div>
-											</div>
-										</div>
-								</a>
-								
-								<a class="link=" href="">
-										<div class="Linkbox">
-											<div class="LinkboxInt">
-												<svg class="pol1"><polygon points="0,0 320,0 320,20 20,20"></svg>
-												<svg class="pol2"><polygon  points="0,0  80,80 0,80"></svg>
-												<svg class="pol3"><polygon  points="0,0  20,20 20,0"></svg>
-												<div class="LinkboxInt2d">
-													<div class="MLName">Twenty-five</div>
-												</div>
-											</div>
-										</div>
-								</a>
-								
-						</div>	
-						
-						<div class="col2">
-						
-								<a class="link=" href="">
-										<div class="Linkbox">
-											<div class="LinkboxInt">
-												<svg class="pol1"><polygon points="0,0 320,0 320,20 20,20"></svg>
-												<svg class="pol2"><polygon  points="0,0  80,80 0,80"></svg>
-												<svg class="pol3"><polygon  points="0,0  20,20 20,0"></svg>
-												<div class="LinkboxInt2d">
-													<div class="MLName">Twenty-six</div>
-												</div>
-											</div>
-										</div>
-								</a>
-								
-								<a class="link=" href="">
-										<div class="Linkbox">
-											<div class="LinkboxInt">
-												<svg class="pol1"><polygon points="0,0 320,0 320,20 20,20"></svg>
-												<svg class="pol2"><polygon  points="0,0  80,80 0,80"></svg>
-												<svg class="pol3"><polygon  points="0,0  20,20 20,0"></svg>
-												<div class="LinkboxInt2d">
-													<div class="MLName">Twenty-seven</div>
-												</div>
-											</div>
-										</div>
-								</a>
-								
-								<a class="link=" href="">
-										<div class="Linkbox">
-											<div class="LinkboxInt">
-												<svg class="pol1"><polygon points="0,0 320,0 320,20 20,20"></svg>
-												<svg class="pol2"><polygon  points="0,0  80,80 0,80"></svg>
-												<svg class="pol3"><polygon  points="0,0  20,20 20,0"></svg>
-												<div class="LinkboxInt2d">
-													<div class="MLName">Twenty-eight</div>
-												</div>
-											</div>
-										</div>
-								</a>
-								
-								<a class="link=" href="">
-										<div class="Linkbox">
-											<div class="LinkboxInt">
-												<svg class="pol1"><polygon points="0,0 320,0 320,20 20,20"></svg>
-												<svg class="pol2"><polygon  points="0,0  80,80 0,80"></svg>
-												<svg class="pol3"><polygon  points="0,0  20,20 20,0"></svg>
-												<div class="LinkboxInt2d">
-													<div class="MLName">Twenty-nine</div>
-												</div>
-											</div>
-										</div>
-								</a>
-								
-								<a class="link=" href="">
-										<div class="Linkbox">
-											<div class="LinkboxInt">
-												<svg class="pol1"><polygon points="0,0 320,0 320,20 20,20"></svg>
-												<svg class="pol2"><polygon  points="0,0  80,80 0,80"></svg>
-												<svg class="pol3"><polygon  points="0,0  20,20 20,0"></svg>
-												<div class="LinkboxInt2d">
-													<div class="MLName">Thirty</div>
-												</div>
-											</div>
-										</div>
-								</a>
-								
-						</div>
-						
-				</div>	
-				
-				<div class="Links" id="Links4">
-				
-						<div class="col1">
-						
-								<a class="link=" href="">
-										<div class="Linkbox">
-											<div class="LinkboxInt">
-												<svg class="pol1"><polygon points="0,0 320,0 320,20 20,20"></svg>
-												<svg class="pol2"><polygon  points="0,0  80,80 0,80"></svg>
-												<svg class="pol3"><polygon  points="0,0  20,20 20,0"></svg>
-												<div class="LinkboxInt2d">
-													<div class="MLName">Thirty-one</div>
-												</div>
-											</div>
-										</div>
-								</a>
-								
-								<a class="link=" href="">
-										<div class="Linkbox">
-											<div class="LinkboxInt">
-												<svg class="pol1"><polygon points="0,0 320,0 320,20 20,20"></svg>
-												<svg class="pol2"><polygon  points="0,0  80,80 0,80"></svg>
-												<svg class="pol3"><polygon  points="0,0  20,20 20,0"></svg>
-												<div class="LinkboxInt2d">
-													<div class="MLName">Thirty-two</div>
-												</div>
-											</div>
-										</div>
-								</a>
-								
-								<a class="link=" href="">
-										<div class="Linkbox">
-											<div class="LinkboxInt">
-												<svg class="pol1"><polygon points="0,0 320,0 320,20 20,20"></svg>
-												<svg class="pol2"><polygon  points="0,0  80,80 0,80"></svg>
-												<svg class="pol3"><polygon  points="0,0  20,20 20,0"></svg>
-												<div class="LinkboxInt2d">
-													<div class="MLName">Thirty-three</div>
-												</div>
-											</div>
-										</div>
-								</a>
-								
-								<a class="link=" href="">
-										<div class="Linkbox">
-											<div class="LinkboxInt">
-												<svg class="pol1"><polygon points="0,0 320,0 320,20 20,20"></svg>
-												<svg class="pol2"><polygon  points="0,0  80,80 0,80"></svg>
-												<svg class="pol3"><polygon  points="0,0  20,20 20,0"></svg>
-												<div class="LinkboxInt2d">
-													<div class="MLName">Thirty-three</div>
-												</div>
-											</div>
-										</div>
-								</a>
-								
-								<a class="link=" href="">
-										<div class="Linkbox">
-											<div class="LinkboxInt">
-												<svg class="pol1"><polygon points="0,0 320,0 320,20 20,20"></svg>
-												<svg class="pol2"><polygon  points="0,0  80,80 0,80"></svg>
-												<svg class="pol3"><polygon  points="0,0  20,20 20,0"></svg>
-												<div class="LinkboxInt2d">
-													<div class="MLName">Thirty-four</div>
-												</div>
-											</div>
-										</div>
-								</a>
-								
-						</div>	
-						
-						<div class="col2">
-						
-								<a class="link=" href="">
-										<div class="Linkbox">
-											<div class="LinkboxInt">
-												<svg class="pol1"><polygon points="0,0 320,0 320,20 20,20"></svg>
-												<svg class="pol2"><polygon  points="0,0  80,80 0,80"></svg>
-												<svg class="pol3"><polygon  points="0,0  20,20 20,0"></svg>
-												<div class="LinkboxInt2d">
-													<div class="MLName">Thirty-five</div>
-												</div>
-											</div>
-										</div>
-								</a>
-								
-								<a class="link=" href="">
-										<div class="Linkbox">
-											<div class="LinkboxInt">
-												<svg class="pol1"><polygon points="0,0 320,0 320,20 20,20"></svg>
-												<svg class="pol2"><polygon  points="0,0  80,80 0,80"></svg>
-												<svg class="pol3"><polygon  points="0,0  20,20 20,0"></svg>
-												<div class="LinkboxInt2d">
-													<div class="MLName">Thirty-six</div>
-												</div>
-											</div>
-										</div>
-								</a>
-								
-								<a class="link=" href="">
-										<div class="Linkbox">
-											<div class="LinkboxInt">
-												<svg class="pol1"><polygon points="0,0 320,0 320,20 20,20"></svg>
-												<svg class="pol2"><polygon  points="0,0  80,80 0,80"></svg>
-												<svg class="pol3"><polygon  points="0,0  20,20 20,0"></svg>
-												<div class="LinkboxInt2d">
-													<div class="MLName">Thirty-seven</div>
-												</div>
-											</div>
-										</div>
-								</a>
-								
-								<a class="link=" href="">
-										<div class="Linkbox">
-											<div class="LinkboxInt">
-												<svg class="pol1"><polygon points="0,0 320,0 320,20 20,20"></svg>
-												<svg class="pol2"><polygon  points="0,0  80,80 0,80"></svg>
-												<svg class="pol3"><polygon  points="0,0  20,20 20,0"></svg>
-												<div class="LinkboxInt2d">
-													<div class="MLName">Thirty-nine</div>
-												</div>
-											</div>
-										</div>
-								</a>
-								
-								<a class="link=" href="">
-										<div class="Linkbox">
-											<div class="LinkboxInt">
-												<svg class="pol1"><polygon points="0,0 320,0 320,20 20,20"></svg>
-												<svg class="pol2"><polygon  points="0,0  80,80 0,80"></svg>
-												<svg class="pol3"><polygon  points="0,0  20,20 20,0"></svg>
-												<div class="LinkboxInt2d">
-													<div class="MLName">Fourty</div>
-												</div>
-											</div>
-										</div>
-								</a>
-								
-						</div>
-						
-				</div>			
-				
+<body>
+	<div id="blackCurtains" onmousedown="closeSearchBoxIn()"></div>
+	<div id="Main">
+		<div class="rideaux1"></div>
+		<div class="rideaux2"></div>
+		<div id="topBox">
+			<div id="searchBox" onmousedown="openSearchBoxIn()">
+				<form method="get" action="http://www.google.com/search">
+					<div id="searchPlaceholder">Search something here...</div>
+					<input id="search" name="q" placeholder="Search something here..." maxlength="255" value="" type="text" autocomplete="off">
+				</form>
+			</div>
 		</div>
-		
-		
-	</body>
-	
-	<script>
-			
-			
-			
-			var searchBox = document.getElementById("searchBox");
-			var search = document.getElementById("search");
-			var searchPlaceholder = document.getElementById("searchPlaceholder");
-			var blackCurtains = document.getElementById("blackCurtains");
-			var blackCurtains2 = document.getElementById("blackCurtains2");
-			
-			var cssColor = document.getElementById("cssColor");
-			
-			var title = document.getElementById("title");
-			
-			closeAlldrawers(); 
-			openDrawer(1);
-			/* defaultCss(); */
-			openSearchBoxIn();
-			closeSearchBoxIn();
-			randColor();
-			//ra();
-			// The function below sets a random title for the home page
-			
-			ra2();
-			function ra2() {
-				var randNum = Math.floor(Math.random() * 11);
-				var randTitles = ["Zero","One","Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten;"];
-				title.innerHTML= randTitles[randNum];
-				//alert (randNum);
-				//alert (document.title);
-			}
-			
-			function closeAlldrawers() {
-				for(i = 1; i < 5; i++) {
-				document.getElementById("drawer" + i).style.opacity = '.5';
-				document.getElementById("Links" + i).style.zIndex = '-1';
-				document.getElementById("Links" + i).style.opacity = '0'; 
-			}}
-			function openDrawer(f) {
-				closeAlldrawers();
-				document.getElementById("drawer" + f).style.opacity = '1';
-				document.getElementById("Links" + f).style.zIndex = '1';
-				document.getElementById("Links" + f).style.opacity = '1'; 
-			}
-			
-			function openSearchBoxIn() {
-				searchBox.style.marginTop = "30%";
-				searchBox.style.zIndex = "21";
-				searchBox.style.borderRadius = "10px";
-				searchBox.style.width = "calc(100% + 160px)";
-				searchBox.style.left = "-100px";
-				
-				blackCurtains.style.zIndex = "20";
-				blackCurtains.style.opacity = ".4";
-				//blackCurtains2.style.boxShadow = "10px 10px 0px 3000px rgba(0,0,0,.5);";
-								
-				searchPlaceholder.style.opacity = '0';
-				searchBox.style.height = "110%";
-				
-				search.style.opacity = "1";
-				search.style.fontSize = "40px";
-			
-			}
-			
-			function closeSearchBoxIn() {			
-				searchBox.style.marginTop = "0%";
-				searchBox.style.zIndex = "21";
-				searchBox.style.borderRadius = "2px";
-				searchBox.style.width = "calc(100% - 40px)";
-				searchBox.style.left = "0px";
-				
-				blackCurtains.style.zIndex = "-20";
-				blackCurtains.style.opacity = "0";
-				//blackCurtains2.style.boxShadow = "10px 10px 0px 0px rgba(0,0,0,.5);";
-				
-				searchPlaceholder.style.opacity = '1';
-				searchBox.style.height = "40px";
-				
-				search.style.opacity = "0";
-				search.style.fontSize = "20px";			
-			}
-			
-			function randColor() {
-				var randC = 	Math.floor(Math.random() * 4);
-				//var randCCss = "noxColor"+randC;
-				cssColor.href = "noxColor"+randC+".css";
-				//alert (randC);
-				
-			}
-			
-			
-	</script>
-	
+
+		<div id="drawer">
+			<div id="drawer1" class="drawers" onmousedown="openDrawer(1)">
+				<div id="draweric1" class="draweric"></div>
+			</div>
+			<div id="drawer2" class="drawers" onmousedown="openDrawer(2)">
+				<div id="draweric2" class="draweric"></div>
+			</div>
+			<div id="drawer3" class="drawers" onmousedown="openDrawer(3)">
+				<div id="draweric3" class="draweric"></div>
+			</div>
+			<div id="drawer4" class="drawers" onmousedown="openDrawer(4)">
+				<div id="draweric4" class="draweric"></div>
+			</div>
+
+		</div>
+
+
+		<div class="Links" id="Links1">
+
+			<div class="col1">
+
+				<a class="link=" href="">
+					<div class="Linkbox">
+						<div class="LinkboxInt">
+							<svg class="pol1">
+								<polygon points="0,0 320,0 320,20 20,20">
+							</svg>
+							<svg class="pol2">
+								<polygon points="0,0  80,80 0,80">
+							</svg>
+							<svg class="pol3">
+								<polygon points="0,0  20,20 20,0">
+							</svg>
+							<div class="LinkboxInt2d">
+								<div class="MLName">One</div>
+							</div>
+						</div>
+					</div>
+				</a>
+
+				<a class="link=" href="">
+					<div class="Linkbox">
+						<div class="LinkboxInt">
+							<svg class="pol1">
+								<polygon points="0,0 320,0 320,20 20,20">
+							</svg>
+							<svg class="pol2">
+								<polygon points="0,0  80,80 0,80">
+							</svg>
+							<svg class="pol3">
+								<polygon points="0,0  20,20 20,0">
+							</svg>
+							<div class="LinkboxInt2d">
+								<div class="MLName">Two</div>
+							</div>
+						</div>
+					</div>
+				</a>
+
+				<a class="link=" href="">
+					<div class="Linkbox">
+						<div class="LinkboxInt">
+							<svg class="pol1">
+								<polygon points="0,0 320,0 320,20 20,20">
+							</svg>
+							<svg class="pol2">
+								<polygon points="0,0  80,80 0,80">
+							</svg>
+							<svg class="pol3">
+								<polygon points="0,0  20,20 20,0">
+							</svg>
+							<div class="LinkboxInt2d">
+								<div class="MLName">Three</div>
+							</div>
+						</div>
+					</div>
+				</a>
+
+				<a class="link=" href="">
+					<div class="Linkbox">
+						<div class="LinkboxInt">
+							<svg class="pol1">
+								<polygon points="0,0 320,0 320,20 20,20">
+							</svg>
+							<svg class="pol2">
+								<polygon points="0,0  80,80 0,80">
+							</svg>
+							<svg class="pol3">
+								<polygon points="0,0  20,20 20,0">
+							</svg>
+							<div class="LinkboxInt2d">
+								<div class="MLName">Four</div>
+							</div>
+						</div>
+					</div>
+				</a>
+
+				<a class="link=" href="">
+					<div class="Linkbox">
+						<div class="LinkboxInt">
+							<svg class="pol1">
+								<polygon points="0,0 320,0 320,20 20,20">
+							</svg>
+							<svg class="pol2">
+								<polygon points="0,0  80,80 0,80">
+							</svg>
+							<svg class="pol3">
+								<polygon points="0,0  20,20 20,0">
+							</svg>
+							<div class="LinkboxInt2d">
+								<div class="MLName">Five</div>
+							</div>
+						</div>
+					</div>
+				</a>
+
+			</div>
+
+			<div class="col2">
+
+				<a class="link=" href="">
+					<div class="Linkbox">
+						<div class="LinkboxInt">
+							<svg class="pol1">
+								<polygon points="0,0 320,0 320,20 20,20">
+							</svg>
+							<svg class="pol2">
+								<polygon points="0,0  80,80 0,80">
+							</svg>
+							<svg class="pol3">
+								<polygon points="0,0  20,20 20,0">
+							</svg>
+							<div class="LinkboxInt2d">
+								<div class="MLName">Six</div>
+							</div>
+						</div>
+					</div>
+				</a>
+
+				<a class="link=" href="">
+					<div class="Linkbox">
+						<div class="LinkboxInt">
+							<svg class="pol1">
+								<polygon points="0,0 320,0 320,20 20,20">
+							</svg>
+							<svg class="pol2">
+								<polygon points="0,0  80,80 0,80">
+							</svg>
+							<svg class="pol3">
+								<polygon points="0,0  20,20 20,0">
+							</svg>
+							<div class="LinkboxInt2d">
+								<div class="MLName">Seven</div>
+							</div>
+						</div>
+					</div>
+				</a>
+
+				<a class="link=" href="">
+					<div class="Linkbox">
+						<div class="LinkboxInt">
+							<svg class="pol1">
+								<polygon points="0,0 320,0 320,20 20,20">
+							</svg>
+							<svg class="pol2">
+								<polygon points="0,0  80,80 0,80">
+							</svg>
+							<svg class="pol3">
+								<polygon points="0,0  20,20 20,0">
+							</svg>
+							<div class="LinkboxInt2d">
+								<div class="MLName">Eight</div>
+							</div>
+						</div>
+					</div>
+				</a>
+
+				<a class="link=" href="">
+					<div class="Linkbox">
+						<div class="LinkboxInt">
+							<svg class="pol1">
+								<polygon points="0,0 320,0 320,20 20,20">
+							</svg>
+							<svg class="pol2">
+								<polygon points="0,0  80,80 0,80">
+							</svg>
+							<svg class="pol3">
+								<polygon points="0,0  20,20 20,0">
+							</svg>
+							<div class="LinkboxInt2d">
+								<div class="MLName">Nine</div>
+							</div>
+						</div>
+					</div>
+				</a>
+
+				<a class="link=" href="">
+					<div class="Linkbox">
+						<div class="LinkboxInt">
+							<svg class="pol1">
+								<polygon points="0,0 320,0 320,20 20,20">
+							</svg>
+							<svg class="pol2">
+								<polygon points="0,0  80,80 0,80">
+							</svg>
+							<svg class="pol3">
+								<polygon points="0,0  20,20 20,0">
+							</svg>
+							<div class="LinkboxInt2d">
+								<div class="MLName">Ten</div>
+							</div>
+						</div>
+					</div>
+				</a>
+
+			</div>
+		</div>
+
+		<div class="Links" id="Links2">
+
+			<div class="col1">
+
+				<a class="link=" href="">
+					<div class="Linkbox">
+						<div class="LinkboxInt">
+							<svg class="pol1">
+								<polygon points="0,0 320,0 320,20 20,20">
+							</svg>
+							<svg class="pol2">
+								<polygon points="0,0  80,80 0,80">
+							</svg>
+							<svg class="pol3">
+								<polygon points="0,0  20,20 20,0">
+							</svg>
+							<div class="LinkboxInt2d">
+								<div class="MLName">Eleven</div>
+							</div>
+						</div>
+					</div>
+				</a>
+
+				<a class="link=" href="">
+					<div class="Linkbox">
+						<div class="LinkboxInt">
+							<svg class="pol1">
+								<polygon points="0,0 320,0 320,20 20,20">
+							</svg>
+							<svg class="pol2">
+								<polygon points="0,0  80,80 0,80">
+							</svg>
+							<svg class="pol3">
+								<polygon points="0,0  20,20 20,0">
+							</svg>
+							<div class="LinkboxInt2d">
+								<div class="MLName">Twelve</div>
+							</div>
+						</div>
+					</div>
+				</a>
+
+				<a class="link=" href="">
+					<div class="Linkbox">
+						<div class="LinkboxInt">
+							<svg class="pol1">
+								<polygon points="0,0 320,0 320,20 20,20">
+							</svg>
+							<svg class="pol2">
+								<polygon points="0,0  80,80 0,80">
+							</svg>
+							<svg class="pol3">
+								<polygon points="0,0  20,20 20,0">
+							</svg>
+							<div class="LinkboxInt2d">
+								<div class="MLName">Thirteen</div>
+							</div>
+						</div>
+					</div>
+				</a>
+
+				<a class="link=" href="">
+					<div class="Linkbox">
+						<div class="LinkboxInt">
+							<svg class="pol1">
+								<polygon points="0,0 320,0 320,20 20,20">
+							</svg>
+							<svg class="pol2">
+								<polygon points="0,0  80,80 0,80">
+							</svg>
+							<svg class="pol3">
+								<polygon points="0,0  20,20 20,0">
+							</svg>
+							<div class="LinkboxInt2d">
+								<div class="MLName">Fourteen</div>
+							</div>
+						</div>
+					</div>
+				</a>
+
+				<a class="link=" href="">
+					<div class="Linkbox">
+						<div class="LinkboxInt">
+							<svg class="pol1">
+								<polygon points="0,0 320,0 320,20 20,20">
+							</svg>
+							<svg class="pol2">
+								<polygon points="0,0  80,80 0,80">
+							</svg>
+							<svg class="pol3">
+								<polygon points="0,0  20,20 20,0">
+							</svg>
+							<div class="LinkboxInt2d">
+								<div class="MLName">Fifthteen</div>
+							</div>
+						</div>
+					</div>
+				</a>
+
+			</div>
+
+			<div class="col2">
+
+				<a class="link=" href="">
+					<div class="Linkbox">
+						<div class="LinkboxInt">
+							<svg class="pol1">
+								<polygon points="0,0 320,0 320,20 20,20">
+							</svg>
+							<svg class="pol2">
+								<polygon points="0,0  80,80 0,80">
+							</svg>
+							<svg class="pol3">
+								<polygon points="0,0  20,20 20,0">
+							</svg>
+							<div class="LinkboxInt2d">
+								<div class="MLName">Sixteen</div>
+							</div>
+						</div>
+					</div>
+				</a>
+
+				<a class="link=" href="">
+					<div class="Linkbox">
+						<div class="LinkboxInt">
+							<svg class="pol1">
+								<polygon points="0,0 320,0 320,20 20,20">
+							</svg>
+							<svg class="pol2">
+								<polygon points="0,0  80,80 0,80">
+							</svg>
+							<svg class="pol3">
+								<polygon points="0,0  20,20 20,0">
+							</svg>
+							<div class="LinkboxInt2d">
+								<div class="MLName">Seventeen</div>
+							</div>
+						</div>
+					</div>
+				</a>
+
+				<a class="link=" href="">
+					<div class="Linkbox">
+						<div class="LinkboxInt">
+							<svg class="pol1">
+								<polygon points="0,0 320,0 320,20 20,20">
+							</svg>
+							<svg class="pol2">
+								<polygon points="0,0  80,80 0,80">
+							</svg>
+							<svg class="pol3">
+								<polygon points="0,0  20,20 20,0">
+							</svg>
+							<div class="LinkboxInt2d">
+								<div class="MLName">Eighteen</div>
+							</div>
+						</div>
+					</div>
+				</a>
+
+				<a class="link=" href="">
+					<div class="Linkbox">
+						<div class="LinkboxInt">
+							<svg class="pol1">
+								<polygon points="0,0 320,0 320,20 20,20">
+							</svg>
+							<svg class="pol2">
+								<polygon points="0,0  80,80 0,80">
+							</svg>
+							<svg class="pol3">
+								<polygon points="0,0  20,20 20,0">
+							</svg>
+							<div class="LinkboxInt2d">
+								<div class="MLName">Nineteen</div>
+							</div>
+						</div>
+					</div>
+				</a>
+
+				<a class="link=" href="">
+					<div class="Linkbox">
+						<div class="LinkboxInt">
+							<svg class="pol1">
+								<polygon points="0,0 320,0 320,20 20,20">
+							</svg>
+							<svg class="pol2">
+								<polygon points="0,0  80,80 0,80">
+							</svg>
+							<svg class="pol3">
+								<polygon points="0,0  20,20 20,0">
+							</svg>
+							<div class="LinkboxInt2d">
+								<div class="MLName">Twenty</div>
+							</div>
+						</div>
+					</div>
+				</a>
+
+			</div>
+
+		</div>
+
+		<div class="Links" id="Links3">
+
+			<div class="col1">
+
+				<a class="link=" href="">
+					<div class="Linkbox">
+						<div class="LinkboxInt">
+							<svg class="pol1">
+								<polygon points="0,0 320,0 320,20 20,20">
+							</svg>
+							<svg class="pol2">
+								<polygon points="0,0  80,80 0,80">
+							</svg>
+							<svg class="pol3">
+								<polygon points="0,0  20,20 20,0">
+							</svg>
+							<div class="LinkboxInt2d">
+								<div class="MLName">Twenty-one</div>
+							</div>
+						</div>
+					</div>
+				</a>
+
+				<a class="link=" href="">
+					<div class="Linkbox">
+						<div class="LinkboxInt">
+							<svg class="pol1">
+								<polygon points="0,0 320,0 320,20 20,20">
+							</svg>
+							<svg class="pol2">
+								<polygon points="0,0  80,80 0,80">
+							</svg>
+							<svg class="pol3">
+								<polygon points="0,0  20,20 20,0">
+							</svg>
+							<div class="LinkboxInt2d">
+								<div class="MLName">Twenty-two</div>
+							</div>
+						</div>
+					</div>
+				</a>
+
+				<a class="link=" href="">
+					<div class="Linkbox">
+						<div class="LinkboxInt">
+							<svg class="pol1">
+								<polygon points="0,0 320,0 320,20 20,20">
+							</svg>
+							<svg class="pol2">
+								<polygon points="0,0  80,80 0,80">
+							</svg>
+							<svg class="pol3">
+								<polygon points="0,0  20,20 20,0">
+							</svg>
+							<div class="LinkboxInt2d">
+								<div class="MLName">Twenty-three</div>
+							</div>
+						</div>
+					</div>
+				</a>
+
+				<a class="link=" href="">
+					<div class="Linkbox">
+						<div class="LinkboxInt">
+							<svg class="pol1">
+								<polygon points="0,0 320,0 320,20 20,20">
+							</svg>
+							<svg class="pol2">
+								<polygon points="0,0  80,80 0,80">
+							</svg>
+							<svg class="pol3">
+								<polygon points="0,0  20,20 20,0">
+							</svg>
+							<div class="LinkboxInt2d">
+								<div class="MLName">Twenty-four</div>
+							</div>
+						</div>
+					</div>
+				</a>
+
+				<a class="link=" href="">
+					<div class="Linkbox">
+						<div class="LinkboxInt">
+							<svg class="pol1">
+								<polygon points="0,0 320,0 320,20 20,20">
+							</svg>
+							<svg class="pol2">
+								<polygon points="0,0  80,80 0,80">
+							</svg>
+							<svg class="pol3">
+								<polygon points="0,0  20,20 20,0">
+							</svg>
+							<div class="LinkboxInt2d">
+								<div class="MLName">Twenty-five</div>
+							</div>
+						</div>
+					</div>
+				</a>
+
+			</div>
+
+			<div class="col2">
+
+				<a class="link=" href="">
+					<div class="Linkbox">
+						<div class="LinkboxInt">
+							<svg class="pol1">
+								<polygon points="0,0 320,0 320,20 20,20">
+							</svg>
+							<svg class="pol2">
+								<polygon points="0,0  80,80 0,80">
+							</svg>
+							<svg class="pol3">
+								<polygon points="0,0  20,20 20,0">
+							</svg>
+							<div class="LinkboxInt2d">
+								<div class="MLName">Twenty-six</div>
+							</div>
+						</div>
+					</div>
+				</a>
+
+				<a class="link=" href="">
+					<div class="Linkbox">
+						<div class="LinkboxInt">
+							<svg class="pol1">
+								<polygon points="0,0 320,0 320,20 20,20">
+							</svg>
+							<svg class="pol2">
+								<polygon points="0,0  80,80 0,80">
+							</svg>
+							<svg class="pol3">
+								<polygon points="0,0  20,20 20,0">
+							</svg>
+							<div class="LinkboxInt2d">
+								<div class="MLName">Twenty-seven</div>
+							</div>
+						</div>
+					</div>
+				</a>
+
+				<a class="link=" href="">
+					<div class="Linkbox">
+						<div class="LinkboxInt">
+							<svg class="pol1">
+								<polygon points="0,0 320,0 320,20 20,20">
+							</svg>
+							<svg class="pol2">
+								<polygon points="0,0  80,80 0,80">
+							</svg>
+							<svg class="pol3">
+								<polygon points="0,0  20,20 20,0">
+							</svg>
+							<div class="LinkboxInt2d">
+								<div class="MLName">Twenty-eight</div>
+							</div>
+						</div>
+					</div>
+				</a>
+
+				<a class="link=" href="">
+					<div class="Linkbox">
+						<div class="LinkboxInt">
+							<svg class="pol1">
+								<polygon points="0,0 320,0 320,20 20,20">
+							</svg>
+							<svg class="pol2">
+								<polygon points="0,0  80,80 0,80">
+							</svg>
+							<svg class="pol3">
+								<polygon points="0,0  20,20 20,0">
+							</svg>
+							<div class="LinkboxInt2d">
+								<div class="MLName">Twenty-nine</div>
+							</div>
+						</div>
+					</div>
+				</a>
+
+				<a class="link=" href="">
+					<div class="Linkbox">
+						<div class="LinkboxInt">
+							<svg class="pol1">
+								<polygon points="0,0 320,0 320,20 20,20">
+							</svg>
+							<svg class="pol2">
+								<polygon points="0,0  80,80 0,80">
+							</svg>
+							<svg class="pol3">
+								<polygon points="0,0  20,20 20,0">
+							</svg>
+							<div class="LinkboxInt2d">
+								<div class="MLName">Thirty</div>
+							</div>
+						</div>
+					</div>
+				</a>
+
+			</div>
+
+		</div>
+
+		<div class="Links" id="Links4">
+
+			<div class="col1">
+
+				<a class="link=" href="">
+					<div class="Linkbox">
+						<div class="LinkboxInt">
+							<svg class="pol1">
+								<polygon points="0,0 320,0 320,20 20,20">
+							</svg>
+							<svg class="pol2">
+								<polygon points="0,0  80,80 0,80">
+							</svg>
+							<svg class="pol3">
+								<polygon points="0,0  20,20 20,0">
+							</svg>
+							<div class="LinkboxInt2d">
+								<div class="MLName">Thirty-one</div>
+							</div>
+						</div>
+					</div>
+				</a>
+
+				<a class="link=" href="">
+					<div class="Linkbox">
+						<div class="LinkboxInt">
+							<svg class="pol1">
+								<polygon points="0,0 320,0 320,20 20,20">
+							</svg>
+							<svg class="pol2">
+								<polygon points="0,0  80,80 0,80">
+							</svg>
+							<svg class="pol3">
+								<polygon points="0,0  20,20 20,0">
+							</svg>
+							<div class="LinkboxInt2d">
+								<div class="MLName">Thirty-two</div>
+							</div>
+						</div>
+					</div>
+				</a>
+
+				<a class="link=" href="">
+					<div class="Linkbox">
+						<div class="LinkboxInt">
+							<svg class="pol1">
+								<polygon points="0,0 320,0 320,20 20,20">
+							</svg>
+							<svg class="pol2">
+								<polygon points="0,0  80,80 0,80">
+							</svg>
+							<svg class="pol3">
+								<polygon points="0,0  20,20 20,0">
+							</svg>
+							<div class="LinkboxInt2d">
+								<div class="MLName">Thirty-three</div>
+							</div>
+						</div>
+					</div>
+				</a>
+
+				<a class="link=" href="">
+					<div class="Linkbox">
+						<div class="LinkboxInt">
+							<svg class="pol1">
+								<polygon points="0,0 320,0 320,20 20,20">
+							</svg>
+							<svg class="pol2">
+								<polygon points="0,0  80,80 0,80">
+							</svg>
+							<svg class="pol3">
+								<polygon points="0,0  20,20 20,0">
+							</svg>
+							<div class="LinkboxInt2d">
+								<div class="MLName">Thirty-three</div>
+							</div>
+						</div>
+					</div>
+				</a>
+
+				<a class="link=" href="">
+					<div class="Linkbox">
+						<div class="LinkboxInt">
+							<svg class="pol1">
+								<polygon points="0,0 320,0 320,20 20,20">
+							</svg>
+							<svg class="pol2">
+								<polygon points="0,0  80,80 0,80">
+							</svg>
+							<svg class="pol3">
+								<polygon points="0,0  20,20 20,0">
+							</svg>
+							<div class="LinkboxInt2d">
+								<div class="MLName">Thirty-four</div>
+							</div>
+						</div>
+					</div>
+				</a>
+
+			</div>
+
+			<div class="col2">
+
+				<a class="link=" href="">
+					<div class="Linkbox">
+						<div class="LinkboxInt">
+							<svg class="pol1">
+								<polygon points="0,0 320,0 320,20 20,20">
+							</svg>
+							<svg class="pol2">
+								<polygon points="0,0  80,80 0,80">
+							</svg>
+							<svg class="pol3">
+								<polygon points="0,0  20,20 20,0">
+							</svg>
+							<div class="LinkboxInt2d">
+								<div class="MLName">Thirty-five</div>
+							</div>
+						</div>
+					</div>
+				</a>
+
+				<a class="link=" href="">
+					<div class="Linkbox">
+						<div class="LinkboxInt">
+							<svg class="pol1">
+								<polygon points="0,0 320,0 320,20 20,20">
+							</svg>
+							<svg class="pol2">
+								<polygon points="0,0  80,80 0,80">
+							</svg>
+							<svg class="pol3">
+								<polygon points="0,0  20,20 20,0">
+							</svg>
+							<div class="LinkboxInt2d">
+								<div class="MLName">Thirty-six</div>
+							</div>
+						</div>
+					</div>
+				</a>
+
+				<a class="link=" href="">
+					<div class="Linkbox">
+						<div class="LinkboxInt">
+							<svg class="pol1">
+								<polygon points="0,0 320,0 320,20 20,20">
+							</svg>
+							<svg class="pol2">
+								<polygon points="0,0  80,80 0,80">
+							</svg>
+							<svg class="pol3">
+								<polygon points="0,0  20,20 20,0">
+							</svg>
+							<div class="LinkboxInt2d">
+								<div class="MLName">Thirty-seven</div>
+							</div>
+						</div>
+					</div>
+				</a>
+
+				<a class="link=" href="">
+					<div class="Linkbox">
+						<div class="LinkboxInt">
+							<svg class="pol1">
+								<polygon points="0,0 320,0 320,20 20,20">
+							</svg>
+							<svg class="pol2">
+								<polygon points="0,0  80,80 0,80">
+							</svg>
+							<svg class="pol3">
+								<polygon points="0,0  20,20 20,0">
+							</svg>
+							<div class="LinkboxInt2d">
+								<div class="MLName">Thirty-nine</div>
+							</div>
+						</div>
+					</div>
+				</a>
+
+				<a class="link=" href="">
+					<div class="Linkbox">
+						<div class="LinkboxInt">
+							<svg class="pol1">
+								<polygon points="0,0 320,0 320,20 20,20">
+							</svg>
+							<svg class="pol2">
+								<polygon points="0,0  80,80 0,80">
+							</svg>
+							<svg class="pol3">
+								<polygon points="0,0  20,20 20,0">
+							</svg>
+							<div class="LinkboxInt2d">
+								<div class="MLName">Fourty</div>
+							</div>
+						</div>
+					</div>
+				</a>
+
+			</div>
+
+		</div>
+
+	</div>
+
+
+</body>
+
+<script>
+	var searchBox = document.getElementById("searchBox");
+	var search = document.getElementById("search");
+	var searchPlaceholder = document.getElementById("searchPlaceholder");
+	var blackCurtains = document.getElementById("blackCurtains");
+	var blackCurtains2 = document.getElementById("blackCurtains2");
+
+	var cssColor = document.getElementById("cssColor");
+
+	var title = document.getElementById("title");
+
+	closeAlldrawers();
+	openDrawer(1);
+	/* defaultCss(); */
+	openSearchBoxIn();
+	closeSearchBoxIn();
+	randColor();
+	//ra();
+	// The function below sets a random title for the home page
+
+	ra2();
+
+	function ra2() {
+		var randNum = Math.floor(Math.random() * 11);
+		var randTitles = ["Zero", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten;"];
+		title.innerHTML = randTitles[randNum];
+		//alert (randNum);
+		//alert (document.title);
+	}
+
+	function closeAlldrawers() {
+		for (i = 1; i < 5; i++) {
+			document.getElementById("drawer" + i).style.opacity = '.5';
+			document.getElementById("Links" + i).style.zIndex = '-1';
+			document.getElementById("Links" + i).style.opacity = '0';
+		}
+	}
+
+	function openDrawer(f) {
+		closeAlldrawers();
+		document.getElementById("drawer" + f).style.opacity = '1';
+		document.getElementById("Links" + f).style.zIndex = '1';
+		document.getElementById("Links" + f).style.opacity = '1';
+	}
+
+	function openSearchBoxIn() {
+		searchBox.style.marginTop = "30%";
+		searchBox.style.zIndex = "21";
+		searchBox.style.borderRadius = "10px";
+		searchBox.style.width = "calc(100% + 160px)";
+		searchBox.style.left = "-100px";
+
+		blackCurtains.style.zIndex = "20";
+		blackCurtains.style.opacity = ".4";
+		//blackCurtains2.style.boxShadow = "10px 10px 0px 3000px rgba(0,0,0,.5);";
+
+		searchPlaceholder.style.opacity = '0';
+		searchBox.style.height = "110%";
+
+		search.style.opacity = "1";
+		search.style.fontSize = "40px";
+
+	}
+
+	function closeSearchBoxIn() {
+		searchBox.style.marginTop = "0%";
+		searchBox.style.zIndex = "21";
+		searchBox.style.borderRadius = "2px";
+		searchBox.style.width = "calc(100% - 40px)";
+		searchBox.style.left = "0px";
+
+		blackCurtains.style.zIndex = "-20";
+		blackCurtains.style.opacity = "0";
+		//blackCurtains2.style.boxShadow = "10px 10px 0px 0px rgba(0,0,0,.5);";
+
+		searchPlaceholder.style.opacity = '1';
+		searchBox.style.height = "40px";
+
+		search.style.opacity = "0";
+		search.style.fontSize = "20px";
+	}
+
+	function randColor() {
+		var randC = Math.floor(Math.random() * 4);
+		//var randCCss = "noxColor"+randC;
+		cssColor.href = "noxColor" + randC + ".css";
+		//alert (randC);
+
+	}
+</script>
+
 </html>
