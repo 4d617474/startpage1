@@ -1,93 +1,94 @@
-body, .rideaux1, .rideaux2, #settings, #Sthemes
-{
-	/background-color:#e5e5e5;
-	background-color:#151012;
+body,
+.rideaux1,
+.rideaux2,
+#settings,
+#Sthemes {
+	/background-color: #e5e5e5;
+	background-color: #151012;
 }
-#Main
-{
 
-	background-color:rgba(10,10,10,00);
-	/box-shadow:10px 10px 0px #090b10;
-	border-radius:1px;
+#Main {
+	background-color: rgba(10, 10, 10, 00);
+	/box-shadow: 10px 10px 0px #090b10;
+	border-radius: 1px;
 }
-#topBox
-{
-	background-color:#66ffb3;
+
+#topBox {
+	background-color: #66ffb3;
 }
-#searchBox
-{
-	background-color:#f2f2f2;
-	box-shadow:0px 0px 0px;
+
+#searchBox {
+	background-color: #f2f2f2;
+	box-shadow: 0px 0px 0px;
 }
-#searchBox:hover
-{
-	box-shadow:0px 0px 0px;
+
+#searchBox:hover {
+	box-shadow: 0px 0px 0px;
 }
-#search
-{
-	color:#262626;
-	background-color:#f2f2f2;
+
+#search {
+	color: #262626;
+	background-color: #f2f2f2;
 }
-#searchPlaceholder
-{
-	color:#a0a0a0;
+
+#searchPlaceholder {
+	color: #a0a0a0;
 }
-#drawer
-{
-	background-color:#00cc66;
+
+#drawer {
+	background-color: #00cc66;
 }
-.drawers
-{
-	background-color:#66ffb3;
-	box-shadow:0px 0px 0px;
+
+.drawers {
+	background-color: #66ffb3;
+	box-shadow: 0px 0px 0px;
 }
-.drawers:hover
-{
-	background-color:#99ffcc;
-	border-radius:1px;
+
+.drawers:hover {
+	background-color: #99ffcc;
+	border-radius: 1px;
 }
-#draweric1
-{
+
+#draweric1 {
 	background-image: url('draweric1.png');
 }
-#draweric2
-{
+
+#draweric2 {
 	background-image: url('draweric2.png');
 }
-#draweric3
-{
+
+#draweric3 {
 	background-image: url('draweric3.png');
 }
-#draweric4
-{
+
+#draweric4 {
 	background-image: url('draweric4.png');
 }
-#SgoBack
-{
+
+#SgoBack {
 	/background-color: #b3b3b3;
 }
-#SgoBack:hover
-{
-	/background-color:#909090;
-}
-.linkbox
-{
-	background-color:#f2f22f2;
+
+#SgoBack:hover {
+	/background-color: #909090;
 }
 
-.linkboxInt2d
-{
-	background-color:#f2f2f2;
+.linkbox {
+	background-color: #f2f22f2;
 }
-.pol1
-{
-	fill:#d9d9d9;
+
+.linkboxInt2d {
+	background-color: #f2f2f2;
 }
-.pol2
-{
-	fill:#ffffff;
+
+.pol1 {
+	fill: #d9d9d9;
 }
-.pol3
-{
-	fill:#ffffff;
+
+.pol2 {
+	fill: #ffffff;
+}
+
+.pol3 {
+	fill: #ffffff;
 }
