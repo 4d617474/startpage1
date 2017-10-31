@@ -1,22 +1,25 @@
-body, .rideaux1, .rideaux2, #settings, #Sthemes
-{
-	background-color:#191520;
+body,
+.rideaux1,
+.rideaux2,
+#settings,
+#Sthemes {
+	background-color: #191520;
 }
-#topBox
-{
-	background-color:#ff66ff;
+
+#topBox {
+	background-color: #ff66ff;
 }
-#drawer
-{
-	background-color:#ff33ff;
+
+#drawer {
+	background-color: #ff33ff;
 }
-.drawers
-{
-	background-color:#ff66ff;
-	box-shadow:0px 0px 0px;
+
+.drawers {
+	background-color: #ff66ff;
+	box-shadow: 0px 0px 0px;
 }
-.drawers:hover
-{
-	background-color:#ff99ff;
-	border-radius:1px;
+
+.drawers:hover {
+	background-color: #ff99ff;
+	border-radius: 1px;
 }
